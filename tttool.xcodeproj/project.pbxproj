@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CFAD5920F783EFD00BEC3CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFAD5910F783EFD00BEC3CE /* libxml2.dylib */; };
+		4CFAD62A0F783F0800BEC3CE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFAD6280F783F0800BEC3CE /* CoreData.framework */; };
+		4CFAD62B0F783F0800BEC3CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFAD6290F783F0800BEC3CE /* Foundation.framework */; };
+		4CFAD6C00F79B96100BEC3CE /* AvlService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAD6BC0F79B96100BEC3CE /* AvlService.m */; };
+		4CFAD6C10F79B96100BEC3CE /* WSGeneratedObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAD6BF0F79B96100BEC3CE /* WSGeneratedObj.m */; };
+		8DD76F870486A9BA00D96B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F890486A9BA00D96B5E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097DBE83FE8419DDC02AAC07 /* CoreServices.framework */; };
+		8DD76F8C0486A9BA00D96B5E /* tttool.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E9D0290929804C91782 /* tttool.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F8B0486A9BA00D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F8C0486A9BA00D96B5E /* tttool.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		097DBE83FE8419DDC02AAC07 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		4CFAD5910F783EFD00BEC3CE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		4CFAD6280F783F0800BEC3CE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		4CFAD6290F783F0800BEC3CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4CFAD6BB0F79B96100BEC3CE /* AvlService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvlService.h; sourceTree = "<group>"; };
+		4CFAD6BC0F79B96100BEC3CE /* AvlService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvlService.m; sourceTree = "<group>"; };
+		4CFAD6BD0F79B96100BEC3CE /* AvlService.wsdl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AvlService.wsdl; sourceTree = "<group>"; };
+		4CFAD6BE0F79B96100BEC3CE /* WSGeneratedObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGeneratedObj.h; sourceTree = "<group>"; };
+		4CFAD6BF0F79B96100BEC3CE /* WSGeneratedObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGeneratedObj.m; sourceTree = "<group>"; };
+		8DD76F8E0486A9BA00D96B5E /* tttool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tttool; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E9D0290929804C91782 /* tttool.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = tttool.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F880486A9BA00D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F890486A9BA00D96B5E /* CoreServices.framework in Frameworks */,
+				4CFAD5920F783EFD00BEC3CE /* libxml2.dylib in Frameworks */,
+				4CFAD62A0F783F0800BEC3CE /* CoreData.framework in Frameworks */,
+				4CFAD62B0F783F0800BEC3CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* tttool */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E9C0290928B04C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1A8B4A8EFE9D542A11CA2CBB /* Products */,
+			);
+			name = tttool;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4CFAD6BA0F79B96100BEC3CE /* avlservice3 */,
+				08FB7796FE84155DC02AAC07 /* main.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				4CFAD5910F783EFD00BEC3CE /* libxml2.dylib */,
+				4CFAD6280F783F0800BEC3CE /* CoreData.framework */,
+				4CFAD6290F783F0800BEC3CE /* Foundation.framework */,
+				097DBE83FE8419DDC02AAC07 /* CoreServices.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1A8B4A8EFE9D542A11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F8E0486A9BA00D96B5E /* tttool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CFAD6BA0F79B96100BEC3CE /* avlservice3 */ = {
+			isa = PBXGroup;
+			children = (
+				4CFAD6BB0F79B96100BEC3CE /* AvlService.h */,
+				4CFAD6BC0F79B96100BEC3CE /* AvlService.m */,
+				4CFAD6BD0F79B96100BEC3CE /* AvlService.wsdl */,
+				4CFAD6BE0F79B96100BEC3CE /* WSGeneratedObj.h */,
+				4CFAD6BF0F79B96100BEC3CE /* WSGeneratedObj.m */,
+			);
+			name = avlservice3;
+			path = ../avlservice3;
+			sourceTree = SOURCE_ROOT;
+		};
+		C6859E9C0290928B04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E9D0290929804C91782 /* tttool.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F840486A9BA00D96B5E /* tttool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB925E08733DCF0010E9CD /* Build configuration list for PBXNativeTarget "tttool" */;
+			buildPhases = (
+				8DD76F860486A9BA00D96B5E /* Sources */,
+				8DD76F880486A9BA00D96B5E /* Frameworks */,
+				8DD76F8B0486A9BA00D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tttool;
+			productInstallPath = "$(HOME)/bin";
+			productName = tttool;
+			productReference = 8DD76F8E0486A9BA00D96B5E /* tttool */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB926208733DCF0010E9CD /* Build configuration list for PBXProject "tttool" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* tttool */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F840486A9BA00D96B5E /* tttool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F860486A9BA00D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F870486A9BA00D96B5E /* main.m in Sources */,
+				4CFAD6C00F79B96100BEC3CE /* AvlService.m in Sources */,
+				4CFAD6C10F79B96100BEC3CE /* WSGeneratedObj.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB925F08733DCF0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = tttool;
+			};
+			name = Debug;
+		};
+		1DEB926008733DCF0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = tttool;
+			};
+			name = Release;
+		};
+		1DEB926308733DCF0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB926408733DCF0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB925E08733DCF0010E9CD /* Build configuration list for PBXNativeTarget "tttool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB925F08733DCF0010E9CD /* Debug */,
+				1DEB926008733DCF0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB926208733DCF0010E9CD /* Build configuration list for PBXProject "tttool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB926308733DCF0010E9CD /* Debug */,
+				1DEB926408733DCF0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
